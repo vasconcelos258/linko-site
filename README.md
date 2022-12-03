@@ -8,3 +8,10 @@ function($nr,$valor){
 }
 
 ```
+
+```js
+
+
+console.log("ola mundo!")
+
+```

@@ -98,17 +98,5 @@ class response {
 
 
 }
-$mpesa = new Mpesa("56"); /*
-$b2b=$mpesa->b2c([
-  "numero"=>"846369717",
-  "valor"=>"50",
-  "referencia"=>"testedePagamento"
-  ]);
-  var_dump($b2b);*/
-$c2b = $mpesa->c2b([
-  'numero' => '846369717',
-  'valor' => '50',
-  'referencia' => 'testedePagamento'
-]);
-var_dump($c2b);
+
 ?>
